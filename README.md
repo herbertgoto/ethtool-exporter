@@ -10,6 +10,6 @@ The contents of this repo are based on [this archived one](https://github.com/Sh
 - Modify the CMD command. 
 
 ###  k8s-daemonset.yaml
-- Modify the startup command in the daemonset spec. 
+- Modify the startup command in the daemonset spec (without this, the pod will crash). 
 
 These changes fix the project to work on more recent versions for python (3.12.3) and libraries. 
