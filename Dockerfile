@@ -1,4 +1,4 @@
-FROM python:alpine3.20
+FROM python:alpine3.21
 
 RUN apk add --no-cache ethtool
 
